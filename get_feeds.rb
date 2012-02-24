@@ -4,10 +4,12 @@ require 'open-uri'
 require 'yaml'
 require 'rss'
 
-data = YAML.load(open("./feeds.yaml"))
+require "./paths.rb"
+
+data = YAML.load(open(FEEDS_YAML))
 feeds = data.collect {|source| source["feeds"] && source["feeds"].collect {|f| f["url"] } }.flatten
 
-open("feeds.txt", "w") do |fh|
+open(FEEDS_TXT, "w") do |fh|
   feeds.each do |feed|
     fh.write "#{feed}\n"
   end
