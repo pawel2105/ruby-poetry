@@ -1,6 +1,8 @@
 #!/usr/bin/ruby
 
-fh = open("headlines.txt")
+require "./paths.rb"
+
+fh = open(HEADLINES)
 headlines = fh.read.split("\n")
 
 def couplet?(a,b)

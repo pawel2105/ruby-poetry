@@ -3,7 +3,9 @@
 require 'open-uri'
 require 'rss'
 
-fh = open("feeds.txt")
+require "./paths.rb"
+
+fh = open(FEEDS_TXT)
 feeds = fh.read.split "\n"
 
 headlines = []
@@ -22,7 +24,7 @@ end
 headlines = headlines.uniq!
 headlines = headlines.map {|h| h.gsub /^(AUDIO|VIDEO): /,""}
 
-open("headlines.txt", "w") do |fh|
+open(HEADLINES, "w") do |fh|
   headlines.each do |h|
     fh.write "#{h}\n"
   end
