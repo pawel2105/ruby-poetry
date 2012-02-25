@@ -1,5 +1,7 @@
 # Ruby Poetry
 
+Automatically generates couplets (rhymes) from article headlines.
+
 Based on:
 [Ruby Poetry](http://blog.andrewmcdonough.com/blog/2012/02/23/ruby-poetry/) by [Andrew McDonough](https://twitter.com/#!/andrewmcdonough).
 
