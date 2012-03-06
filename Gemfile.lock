@@ -1,0 +1,12 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    json (1.6.5)
+    ruby_rhymes (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  ruby_rhymes (= 0.1.2)

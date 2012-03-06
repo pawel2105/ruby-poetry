@@ -14,6 +14,20 @@ Based on:
 3. **find.rb**
 	Reads in the headlines from headlines.txt and generates couplets.
 
-# TODO
-- Not 100% sure what the purpose of generate_topical_rhyming_couplets.rb was, at it just seems to combine the code of the other 3 files. Maybe this could be removed.
+# Done Pawel
+- Removed generate_topical_rhyming_couplets.rb.
 - Gemfile for dependency management would be nice.
+
+#TODO Pawel
+
+- Add feedback for get_headlines.rb so it prints out what it's getting, not just for when there's an error.
+- In headline fetching, remove anything after a pipe character with regex
+- Remove "and more" suffix from headlines
+- Add rhyming gem
+- Add Twitter gem, post headlines every hour.
+- Store couplets into file, delete couplet as it's tweeted.
+- Add headline character limit.
+- Style HTML page
+- save HTML page somewhere?
+- Cron job to fetch headlines once a day
+- Host file online?
