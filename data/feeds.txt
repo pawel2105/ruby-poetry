@@ -1,8 +1,1 @@
-http://www.guardian.co.uk/rss
-http://www.guardian.co.uk/rssfeed/0,,11,00.xml
-http://www.guardian.co.uk/rssfeed/0,,12,00.xml
-http://www.guardian.co.uk/rssfeed/0,,5,00.xml
-http://www.guardian.co.uk/rssfeed/0,,24,00.xml
-http://www.guardian.co.uk/rssfeed/0,,8,00.xml
-http://www.guardian.co.uk/rssfeed/0,,10,00.xml
-http://www.guardian.co.uk/rssfeed/0,,27,00.xml
+http://avusa.feedsportal.com/c/33051/f/534658/index.rss

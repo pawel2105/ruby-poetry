@@ -6,6 +6,7 @@ require 'rss'
 
 require "./paths.rb"
 
+YAML::ENGINE.yamler = 'syck'
 data = YAML.load(open(FEEDS_YAML))
 feeds = data.collect {|source| source["feeds"] && source["feeds"].collect {|f| f["url"] } }.flatten
 

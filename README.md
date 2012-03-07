@@ -1,9 +1,11 @@
-# Ruby Poetry
+# Ruby rhyming headline generator
 
-Automatically generates couplets (rhymes) from article headlines.
+This automatically generates rhymes from a list of possible article headline sources. It uses the 'ruby_rhymes' gem to create rhyme couplets.
 
-Based on:
+This is based on:
 [Ruby Poetry](http://blog.andrewmcdonough.com/blog/2012/02/23/ruby-poetry/) by [Andrew McDonough](https://twitter.com/#!/andrewmcdonough).
+
+# Steps
 
 1. **get_feeds.rb**
 	Extracts feed URLs from feeds.yaml, and writes these URLs to feeds.txt (could be skipped)
@@ -12,16 +14,10 @@ Based on:
 	Downloads all feeds specified in feeds.txt, extracts the headlines of the articles in the feeds, and stores these headlines in headlines.txt.
 
 3. **find.rb**
-	Reads in the headlines from headlines.txt and generates couplets.
+	Reads in the headlines from headlines.txt, generates couplets and prints it out.
 
-# Done Pawel
-- Removed generate_topical_rhyming_couplets.rb.
-- Gemfile for dependency management would be nice.
+#TODO
 
-#TODO Pawel
-
-- Add feedback for get_headlines.rb so it prints out what it's getting, not just for when there's an error.
-- In headline fetching, remove anything after a pipe character with regex
 - Remove "and more" suffix from headlines
 - Add rhyming gem
 - Add Twitter gem, post headlines every hour.
@@ -31,3 +27,12 @@ Based on:
 - save HTML page somewhere?
 - Cron job to fetch headlines once a day
 - Host file online?
+- Remove error-prone urls from feeds.txt in the get_headlines rescue block
+
+# Changelog
+
+- Removed generate_topical_rhyming_couplets.rb.
+- Made 'syck' the YAML engine because some of the YAML code was either invalid or just wasn't being parsed properly.
+- Added feedback for get_headlines job with incremental counter to see how far the download is.
+- In headline fetching, remove anything after a pipe character with regex. Also remove known superfluous suffixes.
+- Changed headlines.uniq! to headlines.uniq in get_headlines.rb
