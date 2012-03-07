@@ -6,6 +6,15 @@ require 'pp'
 
 require "./paths.rb"
 
+open(HEADLINES, "w") do |f|
+  begin
+    f.truncate(0)
+    puts "Emptied headlines file"
+  rescue
+    puts "Couldn't empty headlines file!"
+  end
+end
+
 fh = open(FEEDS_TXT)
 feeds = fh.read.split "\n"
 

@@ -18,14 +18,10 @@ This is based on:
 
 #TODO
 
-- Remove "and more" suffix from headlines
-- Add rhyming gem
-- Add Twitter gem, post headlines every hour.
 - Store couplets into file, delete couplet as it's tweeted.
-- Add headline character limit.
+- In find.rb add a regex exclusion for where a,b last words of the sentence aren't the same
 - Style HTML page
 - save HTML page somewhere?
-- Cron job to fetch headlines once a day
 - Host file online?
 - Remove error-prone urls from feeds.txt in the get_headlines rescue block
 
@@ -36,3 +32,6 @@ This is based on:
 - Added feedback for get_headlines job with incremental counter to see how far the download is.
 - In headline fetching, remove anything after a pipe character with regex. Also remove known superfluous suffixes.
 - Changed headlines.uniq! to headlines.uniq in get_headlines.rb
+- Headlines.txt is emptied every time it fetches a batch of headlines
+- Added ruby_rhymes gem
+- Added twitter gem

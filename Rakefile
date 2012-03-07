@@ -1,4 +1,10 @@
-desc "This task is called by the Heroku cron add-on"
-task :cron do
- # Do something
+desc "This task collects new headlines"
+task :collect do
+ ruby 'get_headlines.rb'
+end
+
+desc "This task publishes headlines"
+task :publish do
+ # publish
+ # delete
 end

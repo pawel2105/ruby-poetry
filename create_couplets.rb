@@ -6,7 +6,6 @@ require "bundler/setup"
 Bundler.require(:default)
 
 require "pp"
-
 require "./paths.rb"
 
 # read in all headlines incl. links
