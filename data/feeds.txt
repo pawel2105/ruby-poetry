@@ -1,3 +1,5 @@
+http://www.popularmechanics.co.za/page/latest-blog-posts/feed
+http://www.popularmechanics.co.za/page/sci-tech-news/feed
 http://avusa.feedsportal.com/c/33051/f/534658/index.rss
 http://feeds.feedburner.com/memeburncom?format=xml
 http://www.iol.co.za/cmlink/1.640
@@ -43,18 +45,3 @@ http://feeds.feedburner.com/SouthAfricaTheGoodNews-ScienceTechnology?format=xml
 http://feeds.feedburner.com/SouthAfricaTheGoodNews-SocialInfrastructure?format=xml
 http://feeds.feedburner.com/SouthAfricaTheGoodNews-Tourism?format=xml
 http://feeds.feedburner.com/SouthAfricaGoodNews-TradeInvestment?format=xml
-http://www.sowetanlive.co.za/?service=rss
-http://www.sowetanlive.co.za/news/businessnews/?service=rss
-http://www.sowetanlive.co.za/news/worldnews/?service=rss
-http://www.sowetanlive.co.za/columnists/?service=rss
-http://www.sowetanlive.co.za/goodlife/?service=rss
-http://www.sundayworld.co.za/?service=rss
-http://feeds.fin24.com/articles/Fin24/Podcasts/MetalHeads/rssmusic
-http://feeds.fin24.com/articles/Fin24/Business/rss
-http://feeds.fin24.com/articles/Fin24/Companies/rss
-http://feeds.fin24.com/articles/Fin24/AdReview/News-that-Matters/rss
-http://feeds.fin24.com/articles/Fin24/AdReview/rss
-http://feeds.fin24.com/articles/Fin24/Markets/rss
-http://feeds.fin24.com/articles/Fin24/Vote/Special-Reports/Top-200/rss
-http://www.popularmechanics.co.za/page/latest-blog-posts/feed
-http://www.popularmechanics.co.za/page/sci-tech-news/feed

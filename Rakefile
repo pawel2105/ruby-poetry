@@ -5,6 +5,5 @@ end
 
 desc "This task publishes headlines"
 task :publish do
- # publish
- # delete
+ #ruby 'tweet_n_delete.rb'
 end

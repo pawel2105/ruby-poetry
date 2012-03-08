@@ -21,8 +21,8 @@ This is based on:
 - Store couplets into file, delete couplet as it's tweeted.
 - In find.rb add a regex exclusion for where a,b last words of the sentence aren't the same
 - Style HTML page
-- save HTML page somewhere?
-- Host file online?
+- save HTML page
+- Host file online as Sinatra app
 - Remove error-prone urls from feeds.txt in the get_headlines rescue block
 
 # Changelog

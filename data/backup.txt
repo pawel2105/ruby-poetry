@@ -1,0 +1,169 @@
+ Error with http://www.sowetanlive.co.za/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/news/businessnews/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/news/worldnews/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/columnists/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/goodlife/?service=rss 
+-----------
+----------- 
+ Error with http://www.sundayworld.co.za/?service=rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Podcasts/MetalHeads/rssmusic 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Business/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Companies/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/AdReview/News-that-Matters/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/AdReview/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Markets/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Vote/Special-Reports/Top-200/rss 
+-----------
+----------- 
+ Error with http://www.popularmechanics.co.za/page/latest-blog-posts/feed 
+-----------
+----------- 
+ Error with http://www.popularmechanics.co.za/page/sci-tech-news/feed 
+-----------
+----------- 
+ Error with http://avusa.feedsportal.com/c/33051/f/534658/index.rss 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/memeburncom?format=xml 
+-----------
+----------- 
+ Error with http://www.iol.co.za/cmlink/1.640 
+-----------
+----------- 
+ Error with http://www.iol.co.za/cmlink/1.1077761 
+-----------
+----------- 
+ Error with http://mg.co.za/rss/and-in-other-news 
+-----------
+----------- 
+ Error with http://mg.co.za/rss 
+-----------
+----------- 
+ Error with http://mg.co.za/rss/sport 
+-----------
+----------- 
+ Error with http://mg.co.za/rss/national 
+-----------
+----------- 
+ Error with http://mg.co.za/rss/business 
+-----------
+----------- 
+ Error with http://mg.co.za/rss/world 
+-----------
+----------- 
+ Error with http://www.pretorianews.co.za/cmlink/1.662 
+-----------
+----------- 
+ Error with http://www.itweb.co.za/index.php?option=com_rd_rss&id=1 
+-----------
+----------- 
+ Error with http://www.iol.co.za/cmlink/1.1073915 
+-----------
+----------- 
+ Error with http://mybroadband.co.za/news/quick-news/feed 
+-----------
+----------- 
+ Error with http://mybroadband.co.za/news/general/feed 
+-----------
+----------- 
+ Error with http://mybroadband.co.za/news/telecoms/feed 
+-----------
+----------- 
+ Error with http://mybroadband.co.za/news/wireless/feed 
+-----------
+----------- 
+ Error with http://mybroadband.co.za/news/cellular/feed 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/co/UqJF?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaGoodNews-Education?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-Crime?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-Employment?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-General?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-Media?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-Politics?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-ScienceTechnology?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-SocialInfrastructure?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaTheGoodNews-Tourism?format=xml 
+-----------
+----------- 
+ Error with http://feeds.feedburner.com/SouthAfricaGoodNews-TradeInvestment?format=xml 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/news/businessnews/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/news/worldnews/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/columnists/?service=rss 
+-----------
+----------- 
+ Error with http://www.sowetanlive.co.za/goodlife/?service=rss 
+-----------
+----------- 
+ Error with http://www.sundayworld.co.za/?service=rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Podcasts/MetalHeads/rssmusic 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Business/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Companies/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/AdReview/News-that-Matters/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/AdReview/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Markets/rss 
+-----------
+----------- 
+ Error with http://feeds.fin24.com/articles/Fin24/Vote/Special-Reports/Top-200/rss

@@ -39,10 +39,40 @@ end
 headlines = headlines.uniq
 headlines = headlines.map {|h| h.gsub /^(AUDIO|VIDEO): /,""}
 headlines = headlines.map {|h| h.gsub /|\s\w+$/,""} #anything after a pipe character
+headlines = headlines.map {|h| h.gsub /(\(|\))/,""} #strip parenthesis
 headlines = headlines.map {|h| h.gsub /video$/,""} 
 
 open(HEADLINES, "w") do |fh|
   headlines.each do |h|
     fh.write "#{h}\n"
+  end
+end
+
+fulldata = []
+feeds.each do |feed|
+  begin
+    file = open(feed)
+    rss = RSS::Parser.parse(file.read)
+    datatitle = rss.items.map(&:title)
+    datalink = rss.items.map(&:link)
+    
+    temp_array = []
+    datatitle.count.times { temp_array << "" }
+    fulldata += temp_array.zip(datatitle, datalink)
+    #puts fulldata
+    puts "#{wef}/ #{feeds.count}"
+  rescue
+    puts "----------- \n Error with #{feed} \n-----------"
+  end
+end
+
+fulldata = fulldata.uniq
+#fulldata = fulldata.map {|h| h.gsub /^(AUDIO|VIDEO): /,""}
+#fulldata = fulldata.map {|h| h.gsub /|\s\w+$/,""}
+#fulldata = fulldata.map {|h| h.gsub /video$/,""}
+
+open(DATA, "w") do |data|
+  fulldata.each do |datatitle|
+    data.write "\"#{datatitle.join("\n")}\"" + "\n\n" 
   end
 end
