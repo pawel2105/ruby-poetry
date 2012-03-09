@@ -2,6 +2,7 @@
 
 require "./paths.rb"
 require 'ruby_rhymes'
+require 'pp'
 
 fh = open(HEADLINES)
 headlines = fh.read.split("\n")
@@ -20,6 +21,10 @@ headlines = headlines.map{|i| i.split(" ")[-1]}.inject(Hash.new(0)){|i,c| i[c]+=
 #removes any headlines that end in the same word
 
 headlines.sort_by! { |h| h.to_phrase.rhyme_keys }
+
+rhyme_keys_array = [] << headlines.map{|i| i.to_phrase.rhyme_keys }
+batman = rhyme_keys_array.flatten.inject(Hash.new(0)){|i,c| i[c]+=1; i}
+puts batman.class
 
 #need a way to remove all headlines whose rhyme_keys count is 1
 
