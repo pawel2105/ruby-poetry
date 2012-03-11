@@ -67,9 +67,6 @@ feeds.each do |feed|
 end
 
 fulldata = fulldata.uniq
-#fulldata = fulldata.map {|h| h.gsub /^(AUDIO|VIDEO): /,""}
-#fulldata = fulldata.map {|h| h.gsub /|\s\w+$/,""}
-#fulldata = fulldata.map {|h| h.gsub /video$/,""}
 
 open(DATA, "w") do |data|
   fulldata.each do |datatitle|

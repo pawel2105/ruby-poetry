@@ -22,6 +22,26 @@ This is based on:
 2.  Add tests. Whoops!
 3.  Add some functionality to tweet_n_delete.rb
 4.  Rack this baby up into a Sinatra app
+5.  Remove all headlines that don't have corresponding rhyming headlines.
+
+## Notes
+
+In find.rb in the rhyme? method, all punctuation marks are stripped while headlines are being checked for rhymes.
+
+    as = a.gsub /\W/,""
+    bs = b.gsub /\W/,""
+
+Rhymes also need to be tweet sized
+
+    (as.length + bs.length < 140)
+
+We reject all headlines whose last word ends in a word not in the rhyming dictionary otherwise it won't know how to rhyme it
+
+    headlines.reject! { |h|  h.to_phrase.dict? == false }
+
+We remove all headlines that end in the same word. We could go about deleting all but one, but this way was easier.
+
+Every time new rhymes are searched for, we first empty the couplets text file before saving the new rhymes to it.
 
 ## Changelog
 
