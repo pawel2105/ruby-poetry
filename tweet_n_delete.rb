@@ -13,6 +13,7 @@ end
 file = open(RHYMES)
 potential = file.read.split "\n"  
 
+# This works yet the one below doesn't?
 #   1.times do
 #     i = 0
 #     a = potential[i]

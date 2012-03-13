@@ -15,21 +15,19 @@ def rhyme?(a,b)
 end
 
 headlines.reject! {|h| h.length < 10 || h.length > 140 }
-headlines.reject! { |h|  h.to_phrase.dict? == false } 
+headlines.reject! { |h| h.to_phrase.dict? == false } 
 headlines = headlines.map{|i| i.split(" ")[-1]}.inject(Hash.new(0)){|i,c| i[c]+=1; i}.map{|k,v| headlines.grep(/\s#{k}$/).first if v==1}.compact
 
+#This eliminates headlines that dont' have counterpart rhyme keys but the new array is of rhyme keys and not the headlines anymore.
+
+headlines = headlines.map{|i| i.to_phrase.rhyme_key }.inject(Hash.new(0)){|i,c| i[c]+=1; i}.to_a.reject! {|b| b[1] < 2 }
+#Thus this doesn't work:
 headlines.sort_by! { |h| h.to_phrase.rhyme_keys }
-
-rhyme_keys_array = [] << headlines.map{|i| i.to_phrase.rhyme_keys }
-batman = rhyme_keys_array.flatten.inject(Hash.new(0)){|i,c| i[c]+=1; i}
-puts batman.class
-
-#need a way to remove all headlines whose rhyme_keys count is 1
 
 open(RHYMES, "w") do |empty|
   begin
     empty.truncate(0)
-    puts "Emptied couplets.txt file"
+    puts "Emptied rhymes.txt file"
   rescue
     puts "Couldn't empty couplets file!"
   end
