@@ -18,10 +18,9 @@ headlines.reject! {|h| h.length < 10 || h.length > 140 }
 headlines.reject! { |h| h.to_phrase.dict? == false } 
 headlines = headlines.map{|i| i.split(" ")[-1]}.inject(Hash.new(0)){|i,c| i[c]+=1; i}.map{|k,v| headlines.grep(/\s#{k}$/).first if v==1}.compact
 
-#This eliminates headlines that dont' have counterpart rhyme keys but the new array is of rhyme keys and not the headlines anymore.
-
-headlines = headlines.map{|i| i.to_phrase.rhyme_key }.inject(Hash.new(0)){|i,c| i[c]+=1; i}.to_a.reject! {|b| b[1] < 2 }
-#Thus this doesn't work:
+rhyme_map = Hash[headlines.map{|h| h.to_phrase.rhyme_key}.zip(headlines)]
+rhyme_map.reject!{|k, v| v.size % 2 != 0 }
+headlines_with_counterparts = rhyme_map.reject{|k, v| v.size <= 1 }.values
 headlines.sort_by! { |h| h.to_phrase.rhyme_keys }
 
 open(RHYMES, "w") do |empty|
