@@ -22,7 +22,6 @@ This is based on:
 2.  Add tests. Whoops!
 3.  Add some functionality to tweet_n_delete.rb
 4.  Rack this baby up into a Sinatra app
-5.  Remove all headlines that don't have corresponding rhyming headlines.
 
 ## Notes
 
